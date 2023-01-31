@@ -27,3 +27,6 @@ const elementseis = document.querySelector('.four')
 
 console.log(elementseis.textContent)
 
+const elementsete = document.querySelector('.five')
+
+elementsete.innerText = "Pão com mandioca!"
