@@ -56,7 +56,10 @@ const elementnove = document.querySelector('#one')
 console.log(elementnove.value)
 elementnove.value = "Outro valor"
 
-const header = document.querySelector('header')
+
+
+
+const header = document.querySelector('.bg')
 header.setAttribute('id', 'header')
 
 const headerID = document.querySelector('#header')
@@ -66,3 +69,10 @@ console.log(headerID.getAttribute('class'))
 header.removeAttribute('id')
 
 header.setAttribute('class', 'bg header') 
+
+
+const elementdez = document.querySelector('body')
+
+elementdez.style.backgroundColor = "#f9f9D9"
+console.log(elementdez.style.backgroundColor)
+
