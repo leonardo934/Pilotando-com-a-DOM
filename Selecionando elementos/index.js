@@ -22,3 +22,8 @@ const elementcinco = document.querySelectorAll('.three')
 
 
 elementcinco.forEach(el => console.log(el))
+
+const elementseis = document.querySelector('.four')
+
+console.log(elementseis.textContent)
+
