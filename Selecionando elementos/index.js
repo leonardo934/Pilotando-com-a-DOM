@@ -18,3 +18,7 @@ console.log(elementquatro)
 
 
 
+const elementcinco = document.querySelectorAll('.three')
+
+
+elementcinco.forEach(el => console.log(el))
