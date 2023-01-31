@@ -49,3 +49,12 @@ elementsete.innerText = "Pão com mandioca!"
 const elementoito = document.querySelector('.six')
 
 elementoito.innerHTML = "<big>Pão</big> <small>com</small> <big>Mandioca</big> <small>e</small>  <big>Quijo</big>"
+
+
+
+const elementnove = document.querySelector('#one')
+console.log(elementnove.value)
+elementnove.value = "Outro valor"
+
+
+
