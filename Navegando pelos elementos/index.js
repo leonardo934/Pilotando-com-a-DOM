@@ -26,7 +26,9 @@ bodydois.prepend(divdois)
 
 
 
-
+function print() {
+    console.log("Ola")
+}
 
 
 
