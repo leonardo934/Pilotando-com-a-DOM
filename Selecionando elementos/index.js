@@ -76,3 +76,11 @@ const elementdez = document.querySelector('body')
 elementdez.style.backgroundColor = "#f9f9D9"
 console.log(elementdez.style.backgroundColor)
 
+
+const elementonze = document.querySelector('body')
+
+elementonze.classList.add('active', 'green')
+console.log(elementonze.classList)
+// elementonze.classList.remove('active')
+elementonze.classList.toggle('active')
+
