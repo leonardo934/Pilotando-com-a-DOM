@@ -45,11 +45,22 @@ function print() {
     console.log('Pão')
 }
 
+const h1quatro = document.querySelector('.quatro')
+
+h1quatro.addEventListener('click',print)
+
+function print() {
+    console.log('Pão')
+}
 
 
+h1quatro.addEventListener('click', function() {
+    console.log('com')
+})
 
-
-
+h1quatro.addEventListener('click', function() {
+    console.log('Queijo')
+})
 
 
 
