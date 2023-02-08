@@ -61,9 +61,9 @@ h1quatro.addEventListener('click', function() {
 
 
 
-const inputdois = document.querySelector('.inputdois')
+const inputum = document.querySelector('.inputum')
 
-inputdois.onkeydown = function(event) {
+inputum.onkeydown = function(event) {
     console.log(event.currentTarget.value)
 }
 
