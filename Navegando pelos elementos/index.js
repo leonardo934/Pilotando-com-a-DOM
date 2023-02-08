@@ -31,11 +31,6 @@ function print() {
 }
 
 
-const input = document.querySelector('input')
-
-input.onkeydown = function () {
-    console.log('ola')
-}
 
 const h1tres = document.querySelector('.tres')
 
@@ -44,6 +39,9 @@ h1tres.addEventListener('click',print)
 function print() {
     console.log('Pão')
 }
+
+
+
 
 const h1quatro = document.querySelector('.quatro')
 
@@ -57,10 +55,31 @@ function print() {
 h1quatro.addEventListener('click', function() {
     console.log('com')
 })
-
 h1quatro.addEventListener('click', function() {
     console.log('Queijo')
 })
+
+
+
+const inputdois = document.querySelector('.inputdois')
+
+inputdois.onkeydown = function(event) {
+    console.log(event.currentTarget.value)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
