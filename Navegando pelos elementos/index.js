@@ -37,11 +37,13 @@ input.onkeydown = function () {
     console.log('ola')
 }
 
+const h1tres = document.querySelector('.tres')
 
+h1tres.addEventListener('click',print)
 
-
-
-
+function print() {
+    console.log('Pão')
+}
 
 
 
